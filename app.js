@@ -1,19 +1,3 @@
-// normal function statement
+var counte = require('./count');
 
-function sayHi(){
-  console.log("Heelo ");
-};
-sayHi();
-
-
-// function expression
-
-var sayBye = function(){
-  console.log("Bye");
-};
-
-
-function callFunction(fun){
-  fun();
-}
-callFunction(sayBye);
+console.log(counte([1, 2, 3]));
