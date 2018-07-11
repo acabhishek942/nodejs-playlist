@@ -1,5 +1,17 @@
 var events = require('events');
 var utils = require('util');
+var fs = require('fs');
+
+// synchronous version
+fs.readFile('raedme.txt', 'utf-8', function(error, data){
+  fs.writeFile('writee.txt', data, (err) => {
+    if (err) throw err;
+      console.log('It is saved!');
+ });
+});
+
+console.log("tst");
+// code
 
 var Person = function(name){
   this.name = name;
