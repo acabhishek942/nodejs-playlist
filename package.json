@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-playlist",
+  "version": "1.0.0",
+  "description": "A little test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acabhishek942/nodejs-playlist.git"
+  },
+  "keywords": [
+    "fun",
+    "ninjas"
+  ],
+  "author": "Abhishek Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acabhishek942/nodejs-playlist/issues"
+  },
+  "homepage": "https://github.com/acabhishek942/nodejs-playlist#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
