@@ -12,4 +12,6 @@ app.use(express.static('./public'));
 todoController(app);
 
 //listen to port
-console.log("3000 port listening");
+console.log("8081 port listening");
+
+app.listen(8081);
