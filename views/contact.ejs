@@ -33,7 +33,7 @@
       <%= qs.name %>
     </p>
 
-    <form id="contact-form">
+    <form id="contact-form" method="POST" action="/contact">
       <label for="who">Who do you  wan tto contact?</label>
       <input type="text" name="who" value="<%= qs.name %>" />
       <label for="department">Department ?</label>
