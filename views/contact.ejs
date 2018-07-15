@@ -26,5 +26,21 @@
     <p>
       COntact coolese crap right here
     </p>
+    <p>
+      <%= qs.dept %>
+    </p>
+    <p>
+      <%= qs.name %>
+    </p>
+
+    <form id="contact-form">
+      <label for="who">Who do you  wan tto contact?</label>
+      <input type="text" name="who" value="<%= qs.name %>" />
+      <label for="department">Department ?</label>
+      <input type="text" name="department" value="<%= qs.dept %>"/>
+      <label for="email">Email ?</label>
+      <input type="email" name="email" />
+      <input type="submit" name="submit" />
+    </form>
   </body>
 </html>
